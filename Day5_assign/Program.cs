@@ -18,7 +18,11 @@ namespace Simple
                     P2 c2 = new P2();
                     c2.leapYear();
                     break;
-                    default: Console.WriteLine("Please enter correct number");
+                case 3:
+                    P3 c3 = new P3();
+                    c3.PowerOf2();
+                    break;
+                default: Console.WriteLine("Please enter correct number");
                     break;
 
             }
