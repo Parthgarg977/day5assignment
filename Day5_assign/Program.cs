@@ -30,6 +30,10 @@ namespace Simple
                     P5 c5 = new P5();
                     c5.Factors();
                     break;
+                case 6:
+                    P6 c6 = new P6();
+                    c6.quoAndRem();
+                    break;
                 default: 
                     Console.WriteLine("Please enter correct number");  
                     break;
