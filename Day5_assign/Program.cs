@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace Simple
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            P1 c1 = new P1();
+            c1.Flipcoin();
+        }
+    }
+}
