@@ -22,7 +22,12 @@ namespace Simple
                     P3 c3 = new P3();
                     c3.PowerOf2();
                     break;
-                default: Console.WriteLine("Please enter correct number");
+                case 4:
+                    P4 c4 = new P4();
+                    c4.HarmonicNumber();
+                    break;
+                default: 
+                    Console.WriteLine("Please enter correct number");  
                     break;
 
             }
