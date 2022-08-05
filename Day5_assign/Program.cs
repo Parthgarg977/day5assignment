@@ -26,6 +26,10 @@ namespace Simple
                     P4 c4 = new P4();
                     c4.HarmonicNumber();
                     break;
+                case 5:
+                    P5 c5 = new P5();
+                    c5.Factors();
+                    break;
                 default: 
                     Console.WriteLine("Please enter correct number");  
                     break;
