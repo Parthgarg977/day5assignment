@@ -46,6 +46,10 @@ namespace Simple
                     P9 c9 = new P9();
                     c9.VowelorConsonant();
                     break;
+                case 10:
+                    P10 c10 = new P10();
+                    c10.LargestAmongThree();
+                    break;
                 default: 
                     Console.WriteLine("Please enter correct number");  
                     break;
