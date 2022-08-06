@@ -42,6 +42,10 @@ namespace Simple
                     P8 c8 = new P8();
                     c8.EvenOrOdd();
                     break;
+                case 9:
+                    P9 c9 = new P9();
+                    c9.VowelorConsonant();
+                    break;
                 default: 
                     Console.WriteLine("Please enter correct number");  
                     break;
