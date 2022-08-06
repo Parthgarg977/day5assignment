@@ -38,6 +38,10 @@ namespace Simple
                     P7 c7 = new P7();
                     c7.SwapNumber();
                     break;
+                case 8:
+                    P8 c8 = new P8();
+                    c8.EvenOrOdd();
+                    break;
                 default: 
                     Console.WriteLine("Please enter correct number");  
                     break;
