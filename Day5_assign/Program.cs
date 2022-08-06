@@ -34,6 +34,10 @@ namespace Simple
                     P6 c6 = new P6();
                     c6.quoAndRem();
                     break;
+                case 7:
+                    P7 c7 = new P7();
+                    c7.SwapNumber();
+                    break;
                 default: 
                     Console.WriteLine("Please enter correct number");  
                     break;
